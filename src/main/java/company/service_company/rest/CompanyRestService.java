@@ -12,6 +12,7 @@ import java.util.Map;
 @RestController
 public class CompanyRestService {
 
+    /*
     @Value("${xParam}")
     private int xParam;
     @Value("${yParam}")
@@ -28,6 +29,8 @@ public class CompanyRestService {
         params.put("threadName",Thread.currentThread().getName());
         return params;
     }
+
+     */
 
 
 }

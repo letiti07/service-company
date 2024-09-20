@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.stream.Stream;
 
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @SpringBootApplication
 public class ServiceCompanyApplication {
 
