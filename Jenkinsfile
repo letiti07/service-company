@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Image') {
             steps {
-                sh "cd service-company/ && docker build -t service-company:version-${BUILD_ID} ."
+                 sh "cd service-company/ && docker build -t service-company:version-${BUILD_ID} ."
             }
         }
     }
