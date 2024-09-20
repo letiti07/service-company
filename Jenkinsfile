@@ -12,9 +12,9 @@ pipeline {
                 sh "cd service-company/ && mvn package -DskipTests"
             }
         }
-        stage('Run') {
+        stage('Image') {
             steps {
-                sh "cd service-company/ && java -jar target/*.jar"
+                sh "cd service-company/ && docker build -t service-company:version-${BUILD_ID} ."
             }
         }
     }
