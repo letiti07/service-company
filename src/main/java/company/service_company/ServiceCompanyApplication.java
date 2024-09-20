@@ -17,6 +17,7 @@ public class ServiceCompanyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceCompanyApplication.class, args);
 		System.out.println("Bonjour Monsieur!");
+
 	}
 
 	@Bean
